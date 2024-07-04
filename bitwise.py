@@ -22,9 +22,4 @@ cv2.imshow("bitwise",bitwise_xor)
 bitwise_not= cv2.bitwise_not(rectangle)
 cv2.imshow("bitwise",bitwise_not)
 
-
-
-
-
-
 cv2.waitKey(0)
