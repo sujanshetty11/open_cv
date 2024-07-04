@@ -21,7 +21,7 @@ for i , col in enumerate(colors):
     hist=cv2.calcHist([re],[i],None,[256],[0,256])
     plt.plot(hist,color=col)
     plt.xlim([0,256])
-    
+
 
 plt.show()
 
